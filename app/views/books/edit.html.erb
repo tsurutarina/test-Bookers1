@@ -4,5 +4,6 @@
 <%= render 'form', book: @book %>
 </form>
 
-<%= link_to 'Show', @book %> |
+<!--book_path(  .id)-->
+<%= link_to 'Show', book_path(@book.id) %> |
 <%= link_to 'Back', books_path %>
